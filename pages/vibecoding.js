@@ -127,13 +127,12 @@ export default function Vibecoding() {
         <section className="mt-16 p-8 bg-blue-50 rounded-xl border border-blue-100 shadow-md font-sans">
           <h2 className="text-2xl font-bold mb-4 text-blue-900">Analyse</h2>
           <div className="space-y-4 text-blue-900 text-sm md:text-base">
-            <p><strong>Context:</strong> Dit artikel bespreekt een verschuiving in softwareontwikkeling begin 2026. Het gaat niet meer over syntax en code, maar over het overbrengen van een 'vibe' naar een AI. De technologische drempel om zelf oplossingen te creëren verdwijnt volledig.</p>
-            <p><strong>Gebruiker:</strong> De 'prosumer' en creatieveling. Mensen die vroeger afhankelijk waren van dure software of developers, maar nu zelf aan het stuur willen zitten om kleine, specifieke problemen op te lossen (zoals een gezinskalender of een simpel spelletje).</p>
-            <p><strong>Medium:</strong> Een webinterface die aanvoelt als een 'workshop'. Waar de PDF statisch was, moet de website de gebruiker inspireren om zelf aan de slag te gaan.</p>
+            <p><strong>Context:</strong> Dit artikel gaat over een nieuwe manier van omgaan met technologie: niet meer zelf programmeren, maar gewoon zeggen wat je wil en de AI doet de rest. Vibecoding wordt voorgesteld als een kantelpunt, waarbij de drempel om iets digitaal te bouwen bijna volledig verdwijnt. Het laat zien hoe snel die evolutie gegaan is, van frustrerend en technisch naar toegankelijk en bijna vanzelfsprekend.</p>
+            <p><strong>Gebruiker:</strong> De tekst richt zich op mensen die ideeën hebben, maar geen technische achtergrond. Creatievelingen, hobbyisten of gewoon nieuwsgierige gebruikers die zelf iets willen maken zonder eerst te moeten leren programmeren. Het voelt heel toegankelijk, bijna alsof iedereen hiermee kan beginnen.</p>
+            <p><strong>Medium:</strong> Het artikel heeft iets weg van een praktische gids of workshop. Het legt uit, toont voorbeelden en geeft concrete stappen. Het is geen zware analyse, maar eerder iets dat je leest en daarna meteen zelf wil proberen.</p>
             <h3 className="font-bold mt-6">Ontwerpkeuzes:</h3>
-            <p><strong>UI:</strong> Gebruik van een Modern Sans-Serif lettertype en een fris kleurenpalet (veel witruimte en helder blauw). Blauw staat voor betrouwbaarheid en technologie.</p>
-            <p><strong>UX:</strong> Implementatie van een interactieve lijst of 'steps' structuur. Door Tailwind-classes als shadow-md en rounded-xl te gebruiken, lijken belangrijke tips op 'kaarten' die de lezer stap voor stap door het proces gidsen.</p>
-            <p><strong>Reflectie:</strong> Het ontwerp versterkt het gevoel van empowerment. In plaats van een tekst over code, voelt de pagina zelf als een moderne app, wat de boodschap van het artikel ("iedereen kan bouwen") fysiek ondersteunt.</p>
+            <p>De vormgeving is licht, helder en vrij speels. Veel witruimte en blauwe accenten zorgen ervoor dat het niet overweldigend aanvoelt. De stappenlijst en visuele blokken maken het duidelijk en overzichtelijk. Alles is erop gericht om het simpel en haalbaar te laten lijken.</p>
+            <p><strong>Reflectie:</strong> De stijl van de pagina ondersteunt echt het gevoel dat dit “voor iedereen” is. Het ziet er niet technisch of ingewikkeld uit, maar eerder als iets waar je meteen in kan duiken. Daardoor wordt de drempel nog lager, en voelt het bijna logisch om het zelf eens te proberen.</p>
           </div>
         </section>
       </div>

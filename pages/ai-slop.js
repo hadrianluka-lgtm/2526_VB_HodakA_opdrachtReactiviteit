@@ -82,13 +82,12 @@ export default function AiSlop() {
         <section className="mt-16 p-8 bg-red-50 rounded-xl border border-red-100 shadow-md font-sans">
           <h2 className="text-2xl font-bold mb-4 text-red-900">Analyse</h2>
           <div className="space-y-4 text-red-900 text-sm md:text-base">
-            <p><strong>Context:</strong> Een scherpe analyse van de degradatie van sociale media. Het beschrijft hoe algoritmes ons overspoelen met 'slop' (goedkope, AI-gegenereerde content) en hoe dit de sociale dimensie van het internet kapotmaakt.</p>
-            <p><strong>Gebruiker:</strong> De bewuste mediaconsument die een onbehagen voelt bij huidige tijdlijnen en op zoek is naar duiding bij deze irritatie.</p>
-            <p><strong>Medium:</strong> Een digitaal redactioneel format dat rust uitstraalt, als tegenreactie op de drukke, chaotische 'feeds' van Facebook en Instagram.</p>
+            <p><strong>Context:</strong> Dit artikel zoomt in op een groeiend probleem: sociale media die overspoeld worden met AI-gegenereerde content. Het stelt de vraag wat er nog overblijft van het ‘sociale’ aspect als steeds meer wat we zien niet echt is. Het gaat minder over technologie zelf, en meer over de impact ervan op hoe we online omgaan met elkaar.</p>
+            <p><strong>Gebruiker:</strong> De tekst is gericht op mensen die zich herkennen in dat ongemakkelijke gevoel bij sociale media vandaag. Gebruikers die merken dat hun feed verandert en zich afvragen waarom alles plots zo nep aanvoelt. Het spreekt een eerder kritische en bewuste lezer aan.</p>
+            <p><strong>Medium:</strong> Het artikel voelt aan als een opiniestuk of column. Iets persoonlijker, met een duidelijke stem en mening. Het leest vlot, maar zet je tegelijk aan het denken.</p>
             <h3 className="font-bold mt-6">Ontwerpkeuzes:</h3>
-            <p><strong>UI:</strong> Keuze voor een Serif (schreef) lettertype voor de broodtekst. Dit roept de autoriteit van een traditionele krant op. Rode accentkleuren (text-red-600) worden gebruikt voor koppen om een gevoel van waarschuwing en urgentie over te brengen.</p>
-            <p><strong>UX:</strong> Een zeer smalle tekstkolom (max-w-prose) met ruime marges. Dit dwingt de lezer tot focus en vertraging, precies het tegenovergestelde van het 'eindeloze scrollen' door AI-slop.</p>
-            <p><strong>Reflectie:</strong> Door de website bijna minimalistisch in te richten, maken we de kritiek op de 'visuele vervuiling' voelbaar. Het ontwerp fungeert als een 'digitale detox'-ervaring tijdens het lezen.</p>
+            <p>De vormgeving is rustiger en klassieker. De smalle tekstkolom en het gebruik van een serif-lettertype doen denken aan een krant. De rode accenten geven het geheel iets dringends, alsof het een waarschuwing is. Alles staat in contrast met de drukke, chaotische wereld van sociale media zelf.</p>
+            <p><strong>Reflectie:</strong> Door het ontwerp zo sober en gefocust te houden, voelt het bijna als een pauze van sociale media terwijl je leest. Dat versterkt de boodschap van het artikel: minder ruis, meer aandacht. Het maakt de kritiek niet alleen leesbaar, maar ook voelbaar.</p>
           </div>
         </section>
       </div>

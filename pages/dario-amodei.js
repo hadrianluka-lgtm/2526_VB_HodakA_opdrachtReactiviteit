@@ -94,13 +94,12 @@ export default function DarioAmodei() {
         <section className="mt-16 p-8 bg-slate-800 rounded-xl border border-slate-700 shadow-2xl">
           <h2 className="text-2xl font-bold mb-4 text-white">Analyse</h2>
           <div className="space-y-4 text-slate-300 text-sm md:text-base">
-            <p><strong>Context:</strong> Een politiek geladen verslag over de machtsstrijd in Silicon Valley. Het draait om ethiek, de overheid (het Pentagon) en de zeldzame positie van AI-experts die hun rug recht houden tegenover politieke druk.</p>
-            <p><strong>Gebruiker:</strong> Lezers met een sterke interesse in ethiek, machtsstructuren en de achtergrond van grote techbedrijven (zoals Anthropic en Google).</p>
-            <p><strong>Medium:</strong> Een 'Long-read' of 'Dossier' format. De pagina moet aanvoelt als een officieel document of een diepgaande analyse van achter de schermen.</p>
+            <p><strong>Context:</strong> Het artikel gaat over een moment waarop het echt begint te wringen tussen Silicon Valley en de politiek. Het verhaal rond Anthropic en Dario Amodei wordt gebruikt om een grotere vraag te stellen: moeten technologiebedrijven altijd meewerken met de overheid, of mogen ze ook grenzen trekken? Zeker als het gaat over iets zwaars zoals het gebruik van AI in oorlogssituaties.</p>
+            <p><strong>Gebruiker:</strong> De tekst is bedoeld voor lezers die niet alleen willen weten wat er gebeurt, maar ook waarom het ertoe doet. Mensen die geïnteresseerd zijn in technologie, maar ook in de ethische en politieke kant ervan. Lezers die graag even stilstaan bij de impact van AI op de samenleving.</p>
+            <p><strong>Medium:</strong> Het artikel voelt als een long-read: iets waar je even voor gaat zitten. Geen snel nieuwsbericht, maar een stuk dat de tijd neemt om context te geven en dieper in te gaan op het verhaal. Het heeft iets weg van een analyse of achtergrondstuk.</p>
             <h3 className="font-bold mt-6 text-white">Ontwerpkeuzes:</h3>
-            <p><strong>UI:</strong> Gebruik van Dark Mode (bg-slate-900) met contrastrijke tekst. Dit geeft een sfeer van ernst, vertrouwelijkheid en autoriteit. De blauwgrijze tinten verwijzen naar de 'corporate' wereld van tech-reuzen.</p>
-            <p><strong>UX:</strong> Toepassing van Pull-quotes (grote citaten tussen de tekst) die fungeren als visuele ankerpunten. Dit helpt bij het verteren van de complexe politieke materie.</p>
-            <p><strong>Reflectie:</strong> De donkere, zware UI-stijl zorgt ervoor dat de lezer de ernst van het onderwerp direct bij binnenkomst begrijpt. Het vertaalt het 'Spartacus-moment' naar een visueel krachtig statement op het scherm.</p>
+            <p>De donkere vormgeving ondersteunt de toon van het artikel. Het maakt alles net iets serieuzer en intenser. De lichte tekst op een donkere achtergrond zorgt voor contrast en focus. De grote citaten tussendoor helpen om even te pauzeren en de belangrijkste ideeën eruit te halen, zonder dat je alles opnieuw moet lezen.</p>
+            <p><strong>Reflectie:</strong> Alles samen zorgt ervoor dat de lezer meteen aanvoelt dat dit geen luchtig onderwerp is. De vormgeving en de inhoud versterken elkaar: het oogt zwaar, en dat past ook bij wat er verteld wordt. Daardoor komt de boodschap sterker binnen en blijft het ook langer hangen.</p>
           </div>
         </section>
       </div>
