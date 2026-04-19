@@ -58,6 +58,11 @@ export default function AiSlop() {
           stroom van door een computer gegenereerde video’s, aanbevolen door een algoritme?
         </p>
 
+        <figure className="my-8">
+          <img src="/images/ai-slop/cat-bike.png" alt="AI Slop voorbeeld: een kat op een fiets" className="w-full h-auto rounded-lg shadow-md" />
+          <figcaption className="text-sm text-gray-500 mt-2 italic text-center">Een typisch voorbeeld van AI-gegenereerde "slop" die viraal gaat op Facebook.</figcaption>
+        </figure>
+
         <div className="my-12 p-6 bg-gray-50 border border-gray-200 rounded-xl">
           <h3 className="text-sm uppercase tracking-widest text-gray-400 mb-4 text-center font-semibold">Advertentie</h3>
           <img src="/images/ai-slop/ad.png" alt="Advertentie" className="w-full h-auto rounded shadow-sm" />
