@@ -1,6 +1,6 @@
 export default function Vibecoding() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-3xl mx-auto px-4 py-12 text-gray-800">
       <header className="mb-12">
         <div className="text-blue-600 font-bold uppercase tracking-wider text-sm mb-2">De Helpdesk</div>
         <h1 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-4">
@@ -15,16 +15,11 @@ export default function Vibecoding() {
         </div>
       </header>
 
-      <div className="w-full aspect-video bg-gray-200 rounded-lg my-8 flex items-center justify-center text-gray-400 border-2 border-dashed border-gray-300">
-        <div className="text-center p-4">
-          <svg className="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          </svg>
-          <p className="mt-1">Hoofdafbeelding Artikel 2 (Nog toe te voegen)</p>
-        </div>
-      </div>
+      <figure className="my-8">
+        <img src="/images/vibecoding/main.png" alt="Vibecoding illustratie" className="w-full h-auto rounded-lg shadow-lg" />
+      </figure>
 
-      <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed space-y-6">
+      <div className="prose prose-lg max-w-none leading-relaxed space-y-6">
         <p className="font-bold text-xl leading-snug">
           Met vibecoding maak je een app of website op maat. Of liever: AI maakt die voor je.
           Waarom zou je een app gebruiken die geld kost of een abonnement vereist, en toch niet
@@ -44,9 +39,24 @@ export default function Vibecoding() {
           over hoe je die code moest ‘draaien’ op je computer. Die muren zijn nu grotendeels gesloopt.
         </p>
 
-        <div className="bg-gray-100 p-6 rounded-lg border-l-4 border-blue-500 my-8">
-          <h3 className="text-lg font-bold mb-2">Een eenvoudig spel in 5 stappen:</h3>
-          <ol className="list-decimal ml-5 space-y-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+          <figure>
+            <img src="/images/vibecoding/gemini-game.png" alt="Gemini T-rex game" className="w-full h-auto rounded border border-gray-200" />
+            <figcaption className="text-sm text-gray-500 mt-2 italic">
+              Dit spel in Javascript is gegenereerd door Gemini met één prompt: 'Maak een spel waarbij een t-rex een bal moet koppen.'
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="/images/vibecoding/chatgpt-game.png" alt="ChatGPT game" className="w-full h-auto rounded border border-gray-200" />
+            <figcaption className="text-sm text-gray-500 mt-2 italic">
+              ChatGPT schreef dit spel in een aantal stappen, na telkens een kleine bijsturing.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div className="bg-blue-50 p-8 rounded-2xl border-l-8 border-blue-500 my-10 shadow-sm">
+          <h3 className="text-xl font-bold mb-4 text-blue-900">Een eenvoudig spel in 5 stappen:</h3>
+          <ol className="list-decimal ml-5 space-y-3 text-blue-900 font-medium">
             <li>Open een chatbot (Claude, ChatGPT, Gemini).</li>
             <li>Geef een prompt (bijv. "Maak een dino-spel").</li>
             <li>Kopieer de gegenereerde code.</li>
@@ -61,6 +71,14 @@ export default function Vibecoding() {
           bijhoudt hoeveel koppen koffie ik drink en die me een waarschuwing geeft als ik over mijn
           limiet ga.” De AI bouwt het, test het, en geeft je een link die je meteen op je telefoon kunt gebruiken.
         </p>
+
+        <figure className="my-10">
+          <img src="/images/vibecoding/calendar.png" alt="Gezinskalender app" className="w-full h-auto rounded-lg shadow-md border border-gray-100" />
+          <figcaption className="text-sm text-gray-500 mt-3 text-center px-4">
+            Deze gezinskalender draait op smartphone en pc, de gegevens worden in de 'cloud' bewaard.
+            De eerste versie werd geschreven door ChatGPT, maar de afwerking gebeurde met hulp van ChatGPT Codex.
+          </figcaption>
+        </figure>
 
         <p>
           Ik vibecode het liefst op mijn laptop, maar het kan ook op een smartphone. Soms begrijpt de chatbot
@@ -85,6 +103,24 @@ export default function Vibecoding() {
           nog steeds onmisbaar. Maar voor die kleine tool die je leven net wat makkelijker maakt, of die
           website voor je hobbyclub, is vibecoding een absolute gamechanger in 2026.
         </p>
+
+        <div className="mt-16 pt-8 border-t-2 border-gray-100">
+          <h3 className="text-2xl font-black mb-6">Lees ook:</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="group cursor-pointer">
+              <div className="aspect-video overflow-hidden rounded-lg mb-3">
+                <img src="/images/vibecoding/read-also-1.png" alt="Echt waar: Niks ai" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+              </div>
+              <h4 className="font-bold text-lg group-hover:text-blue-600 transition-colors">Echt waar: Niks AI</h4>
+            </div>
+            <div className="group cursor-pointer">
+              <div className="aspect-video overflow-hidden rounded-lg mb-3">
+                <img src="/images/vibecoding/read-also-2.png" alt="Cyberhuwelijk" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+              </div>
+              <h4 className="font-bold text-lg group-hover:text-blue-600 transition-colors">Mijn destructieve cyberhuwelijk met Claude</h4>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
   );
