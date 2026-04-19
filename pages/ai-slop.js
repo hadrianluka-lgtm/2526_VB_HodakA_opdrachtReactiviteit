@@ -7,13 +7,15 @@ export default function AiSlop() {
           Leidt AI-slop tot de dood van sociale media?
         </h1>
         <div className="flex items-center text-gray-500 text-sm">
-          <span>Dominique Deckmyn</span>
-          <span className="mx-2">&bull;</span>
-          <span>2 januari 2026</span>
+          <img src="/images/ai-slop/writer.png" alt="Dominique Deckmyn" className="w-10 h-10 rounded-full mr-3 object-cover" />
+          <div>
+            <div className="font-bold text-gray-900">Dominique Deckmyn</div>
+            <div>2 januari 2026</div>
+          </div>
         </div>
       </header>
 
-      <img src='/images/artikel1.jpg' alt='Artikel afbeelding' className='w-full h-auto rounded-lg my-8' />
+      <img src='/images/ai-slop/main.png' alt='AI-slop illustratie' className='w-full h-auto rounded-lg my-8' />
 
       <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed space-y-6">
         <p className="font-bold text-xl leading-snug">
@@ -55,6 +57,22 @@ export default function AiSlop() {
           voornaamste auteur was. Wat precies is de sociale dimensie van kijken naar een eindeloze
           stroom van door een computer gegenereerde video’s, aanbevolen door een algoritme?
         </p>
+
+        <div className="my-12 p-6 bg-gray-50 border border-gray-200 rounded-xl">
+          <h3 className="text-sm uppercase tracking-widest text-gray-400 mb-4 text-center font-semibold">Advertentie</h3>
+          <img src="/images/ai-slop/ad.png" alt="Advertentie" className="w-full h-auto rounded shadow-sm" />
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-gray-200">
+          <h3 className="text-xl font-bold mb-4">Lees ook:</h3>
+          <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col md:flex-row shadow-sm hover:shadow-md transition-shadow">
+            <img src="/images/ai-slop/read-also.png" alt="Gerelateerd artikel" className="w-full md:w-48 h-32 object-cover" />
+            <div className="p-4">
+              <h4 className="font-bold text-blue-600 hover:underline cursor-pointer">Hoe herken je AI-slop in je tijdlijn?</h4>
+              <p className="text-sm text-gray-600 mt-2 line-clamp-2">Tips om synthetische content te onderscheiden van echte video's en posts van vrienden.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
   );
