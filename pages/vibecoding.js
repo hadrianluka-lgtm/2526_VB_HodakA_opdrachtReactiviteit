@@ -16,7 +16,7 @@ export default function Vibecoding() {
       </header>
 
       <figure className="my-8">
-        <img src="/images/vibecoding/main.png" alt="Vibecoding illustratie" className="w-full h-auto rounded-lg shadow-lg" />
+        <img src="/images/vibecoding/main.png" alt="Vibecoding illustratie" className="w-full max-w-2xl mx-auto block h-auto rounded-lg shadow-lg" />
       </figure>
 
       <div className="prose prose-lg max-w-none leading-relaxed space-y-6">
@@ -41,13 +41,13 @@ export default function Vibecoding() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
           <figure>
-            <img src="/images/vibecoding/gemini-game.png" alt="Gemini T-rex game" className="w-full h-auto rounded border border-gray-200" />
+            <img src="/images/vibecoding/gemini-game.png" alt="Gemini T-rex game" className="w-full mx-auto block h-auto rounded border border-gray-200" />
             <figcaption className="text-sm text-gray-500 mt-2 italic">
               Dit spel in Javascript is gegenereerd door Gemini met één prompt: 'Maak een spel waarbij een t-rex een bal moet koppen.'
             </figcaption>
           </figure>
           <figure>
-            <img src="/images/vibecoding/chatgpt-game.png" alt="ChatGPT game" className="w-full h-auto rounded border border-gray-200" />
+            <img src="/images/vibecoding/chatgpt-game.png" alt="ChatGPT game" className="w-full mx-auto block h-auto rounded border border-gray-200" />
             <figcaption className="text-sm text-gray-500 mt-2 italic">
               ChatGPT schreef dit spel in een aantal stappen, na telkens een kleine bijsturing.
             </figcaption>
@@ -73,7 +73,7 @@ export default function Vibecoding() {
         </p>
 
         <figure className="my-10">
-          <img src="/images/vibecoding/calendar.png" alt="Gezinskalender app" className="w-full h-auto rounded-lg shadow-md border border-gray-100" />
+          <img src="/images/vibecoding/calendar.png" alt="Gezinskalender app" className="w-full max-w-2xl mx-auto block h-auto rounded-lg shadow-md border border-gray-100" />
           <figcaption className="text-sm text-gray-500 mt-3 text-center px-4">
             Deze gezinskalender draait op smartphone en pc, de gegevens worden in de 'cloud' bewaard.
             De eerste versie werd geschreven door ChatGPT, maar de afwerking gebeurde met hulp van ChatGPT Codex.
@@ -104,20 +104,22 @@ export default function Vibecoding() {
           website voor je hobbyclub, is vibecoding een absolute gamechanger in 2026.
         </p>
 
-        <div className="mt-16 pt-8 border-t-2 border-gray-100">
-          <h3 className="text-2xl font-black mb-6">Lees ook:</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="group cursor-pointer">
-              <div className="aspect-video overflow-hidden rounded-lg mb-3">
-                <img src="/images/vibecoding/read-also-1.png" alt="Echt waar: Niks ai" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        <div className="mt-12 pt-8 border-t border-gray-200">
+          <h3 className="text-xl font-bold mb-4">Lees ook:</h3>
+          <div className="space-y-4">
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col md:flex-row shadow-sm hover:shadow-md transition-shadow">
+              <img src="/images/vibecoding/read-also-1.png" alt="Echt waar: Niks ai" className="w-full md:w-48 h-32 object-cover" />
+              <div className="p-4">
+                <h4 className="font-bold text-blue-600 hover:underline cursor-pointer">Echt waar: Niks AI</h4>
+                <p className="text-sm text-gray-600 mt-2 line-clamp-2">Soms is de beste technologie helemaal geen technologie.</p>
               </div>
-              <h4 className="font-bold text-lg group-hover:text-blue-600 transition-colors">Echt waar: Niks AI</h4>
             </div>
-            <div className="group cursor-pointer">
-              <div className="aspect-video overflow-hidden rounded-lg mb-3">
-                <img src="/images/vibecoding/read-also-2.png" alt="Cyberhuwelijk" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col md:flex-row shadow-sm hover:shadow-md transition-shadow">
+              <img src="/images/vibecoding/read-also-2.png" alt="Cyberhuwelijk" className="w-full md:w-48 h-32 object-cover" />
+              <div className="p-4">
+                <h4 className="font-bold text-blue-600 hover:underline cursor-pointer">Mijn destructieve cyberhuwelijk met Claude</h4>
+                <p className="text-sm text-gray-600 mt-2 line-clamp-2">Een persoonlijk verhaal over de grens tussen mens en machine.</p>
               </div>
-              <h4 className="font-bold text-lg group-hover:text-blue-600 transition-colors">Mijn destructieve cyberhuwelijk met Claude</h4>
             </div>
           </div>
         </div>
