@@ -4,11 +4,10 @@ export default function Home() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-16 text-center">
       <h1 className="text-4xl font-extrabold text-gray-900 sm:text-6xl">
-        UX/UI Analyse <span className="text-blue-600">De Standaard</span>
+        Artikels <span className="text-blue-600">De Standaard</span>
       </h1>
       <p className="mt-6 text-lg text-gray-600 leading-8">
-        Een analyse van drie artikels over AI op basis van UX- en UI-principes,
-        geïmplementeerd in een Next.js webpagina.
+        Een overzicht van artikels van Dominique Deckmyn over de impact van AI op de maatschappij.
       </p>
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">

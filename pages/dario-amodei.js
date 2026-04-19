@@ -13,6 +13,8 @@ export default function DarioAmodei() {
         </div>
       </header>
 
+      <img src='/images/artikel3.jpg' alt='Artikel afbeelding' className='w-full h-auto rounded-lg my-8' />
+
       <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed space-y-6">
         <p className="font-bold text-xl leading-snug">
           Het verzet van Dario Amodei tegen minister van “Oorlog” Pete Hegseth, en de rechtszaak

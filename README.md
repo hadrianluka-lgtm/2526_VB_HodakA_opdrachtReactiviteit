@@ -1,6 +1,6 @@
-# De Standaard Analyse - Next.js Project
+# Artikels De Standaard - Next.js Project
 
-Dit project bevat een UX/UI analyse van drie artikels van De Standaard over AI. Het is gebouwd met **Next.js** en **Tailwind CSS**.
+Dit project bevat een overzicht van drie artikels van Dominique Deckmyn (De Standaard) over AI. Het is gebouwd met **Next.js** en **Tailwind CSS**.
 
 ## Hoe start je dit project?
 
@@ -23,10 +23,9 @@ Omdat dit een Next.js project is, werkt de standaard "Go Live" knop in VS Code n
 - `components/`: Bevat herbruikbare onderdelen zoals de `Navbar`, `Footer` en `Layout`.
 - `styles/`: Bevat de globale CSS instellingen voor Tailwind.
 
-## UX/UI Principes
+## Kenmerken
 
-In dit project is aandacht besteed aan:
-- **Leesbaarheid**: Gebruik van het `@tailwindcss/typography` (prose) plugin voor optimale tekstbreedte en regelafstand.
-- **Visuele Hiërarchie**: Duidelijk onderscheid tussen koppen, intro's en tekstblokken.
-- **Navigatie**: Een consistente navbar om eenvoudig tussen de artikels te schakelen.
+- **Leesbaarheid**: Gebruik van Tailwind Typography voor een prettige leeservaring.
+- **Navigatie**: Een eenvoudige menubalk om tussen artikels te schakelen.
+- **Afbeeldingen**: Placeholders voor afbeeldingen zijn toegevoegd; je kunt je eigen foto's toevoegen in de `public/images/` map.
 - **Responsiviteit**: De website werkt goed op zowel desktop als mobiel.
