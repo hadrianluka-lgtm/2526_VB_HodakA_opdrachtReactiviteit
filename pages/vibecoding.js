@@ -54,7 +54,7 @@ export default function Vibecoding() {
           </figure>
         </div>
 
-        <div className="bg-blue-50 p-8 rounded-2xl border-l-8 border-blue-500 my-10 shadow-sm">
+        <div className="bg-blue-50 p-8 rounded-xl border-l-8 border-blue-500 my-10 shadow-md font-sans">
           <h3 className="text-xl font-bold mb-4 text-blue-900">Een eenvoudig spel in 5 stappen:</h3>
           <ol className="list-decimal ml-5 space-y-3 text-blue-900 font-medium">
             <li>Open een chatbot (Claude, ChatGPT, Gemini).</li>
@@ -107,14 +107,14 @@ export default function Vibecoding() {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <h3 className="text-xl font-bold mb-4">Lees ook:</h3>
           <div className="space-y-4">
-            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col md:flex-row shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden flex flex-col md:flex-row shadow-md hover:shadow-lg transition-shadow">
               <img src="/images/vibecoding/read-also-1.png" alt="Echt waar: Niks ai" className="w-full md:w-48 h-32 object-cover" />
               <div className="p-4">
                 <h4 className="font-bold text-blue-600 hover:underline cursor-pointer">Echt waar: Niks AI</h4>
                 <p className="text-sm text-gray-600 mt-2 line-clamp-2">Soms is de beste technologie helemaal geen technologie.</p>
               </div>
             </div>
-            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col md:flex-row shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden flex flex-col md:flex-row shadow-md hover:shadow-lg transition-shadow">
               <img src="/images/vibecoding/read-also-2.png" alt="Cyberhuwelijk" className="w-full md:w-48 h-32 object-cover" />
               <div className="p-4">
                 <h4 className="font-bold text-blue-600 hover:underline cursor-pointer">Mijn destructieve cyberhuwelijk met Claude</h4>
@@ -123,6 +123,19 @@ export default function Vibecoding() {
             </div>
           </div>
         </div>
+
+        <section className="mt-16 p-8 bg-blue-50 rounded-xl border border-blue-100 shadow-md font-sans">
+          <h2 className="text-2xl font-bold mb-4 text-blue-900">Analyse</h2>
+          <div className="space-y-4 text-blue-900 text-sm md:text-base">
+            <p><strong>Context:</strong> Dit artikel bespreekt een verschuiving in softwareontwikkeling begin 2026. Het gaat niet meer over syntax en code, maar over het overbrengen van een 'vibe' naar een AI. De technologische drempel om zelf oplossingen te creëren verdwijnt volledig.</p>
+            <p><strong>Gebruiker:</strong> De 'prosumer' en creatieveling. Mensen die vroeger afhankelijk waren van dure software of developers, maar nu zelf aan het stuur willen zitten om kleine, specifieke problemen op te lossen (zoals een gezinskalender of een simpel spelletje).</p>
+            <p><strong>Medium:</strong> Een webinterface die aanvoelt als een 'workshop'. Waar de PDF statisch was, moet de website de gebruiker inspireren om zelf aan de slag te gaan.</p>
+            <h3 className="font-bold mt-6">Ontwerpkeuzes:</h3>
+            <p><strong>UI:</strong> Gebruik van een Modern Sans-Serif lettertype en een fris kleurenpalet (veel witruimte en helder blauw). Blauw staat voor betrouwbaarheid en technologie.</p>
+            <p><strong>UX:</strong> Implementatie van een interactieve lijst of 'steps' structuur. Door Tailwind-classes als shadow-md en rounded-xl te gebruiken, lijken belangrijke tips op 'kaarten' die de lezer stap voor stap door het proces gidsen.</p>
+            <p><strong>Reflectie:</strong> Het ontwerp versterkt het gevoel van empowerment. In plaats van een tekst over code, voelt de pagina zelf als een moderne app, wat de boodschap van het artikel ("iedereen kan bouwen") fysiek ondersteunt.</p>
+          </div>
+        </section>
       </div>
     </article>
   );

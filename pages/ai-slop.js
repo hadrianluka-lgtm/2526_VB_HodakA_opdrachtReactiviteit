@@ -1,9 +1,9 @@
 export default function AiSlop() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
-      <header className="mb-12">
-        <div className="text-blue-600 font-bold uppercase tracking-wider text-sm mb-2">De Technocraat</div>
-        <h1 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-4">
+    <article className="max-w-prose mx-auto px-4 py-12 font-serif">
+      <header className="mb-12 font-sans">
+        <div className="text-red-600 font-bold uppercase tracking-wider text-sm mb-2">De Technocraat</div>
+        <h1 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-4 text-red-600">
           Leidt AI-slop tot de dood van sociale media?
         </h1>
         <div className="flex items-center text-gray-500 text-sm">
@@ -68,16 +68,29 @@ export default function AiSlop() {
           <img src="/images/ai-slop/ad.png" alt="Advertentie" className="w-full h-auto rounded shadow-sm" />
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-200">
+        <div className="mt-12 pt-8 border-t border-gray-200 font-sans">
           <h3 className="text-xl font-bold mb-4">Lees ook:</h3>
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col md:flex-row shadow-sm hover:shadow-md transition-shadow">
             <img src="/images/ai-slop/read-also.png" alt="Gerelateerd artikel" className="w-full md:w-48 h-32 object-cover" />
             <div className="p-4">
-              <h4 className="font-bold text-blue-600 hover:underline cursor-pointer">Hoe herken je AI-slop in je tijdlijn?</h4>
+              <h4 className="font-bold text-red-600 hover:underline cursor-pointer">Hoe herken je AI-slop in je tijdlijn?</h4>
               <p className="text-sm text-gray-600 mt-2 line-clamp-2">Tips om synthetische content te onderscheiden van echte video's en posts van vrienden.</p>
             </div>
           </div>
         </div>
+
+        <section className="mt-16 p-8 bg-red-50 rounded-xl border border-red-100 shadow-md font-sans">
+          <h2 className="text-2xl font-bold mb-4 text-red-900">Analyse</h2>
+          <div className="space-y-4 text-red-900 text-sm md:text-base">
+            <p><strong>Context:</strong> Een scherpe analyse van de degradatie van sociale media. Het beschrijft hoe algoritmes ons overspoelen met 'slop' (goedkope, AI-gegenereerde content) en hoe dit de sociale dimensie van het internet kapotmaakt.</p>
+            <p><strong>Gebruiker:</strong> De bewuste mediaconsument die een onbehagen voelt bij huidige tijdlijnen en op zoek is naar duiding bij deze irritatie.</p>
+            <p><strong>Medium:</strong> Een digitaal redactioneel format dat rust uitstraalt, als tegenreactie op de drukke, chaotische 'feeds' van Facebook en Instagram.</p>
+            <h3 className="font-bold mt-6">Ontwerpkeuzes:</h3>
+            <p><strong>UI:</strong> Keuze voor een Serif (schreef) lettertype voor de broodtekst. Dit roept de autoriteit van een traditionele krant op. Rode accentkleuren (text-red-600) worden gebruikt voor koppen om een gevoel van waarschuwing en urgentie over te brengen.</p>
+            <p><strong>UX:</strong> Een zeer smalle tekstkolom (max-w-prose) met ruime marges. Dit dwingt de lezer tot focus en vertraging, precies het tegenovergestelde van het 'eindeloze scrollen' door AI-slop.</p>
+            <p><strong>Reflectie:</strong> Door de website bijna minimalistisch in te richten, maken we de kritiek op de 'visuele vervuiling' voelbaar. Het ontwerp fungeert als een 'digitale detox'-ervaring tijdens het lezen.</p>
+          </div>
+        </section>
       </div>
     </article>
   );

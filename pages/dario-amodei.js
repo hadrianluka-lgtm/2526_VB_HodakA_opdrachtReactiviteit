@@ -2,10 +2,11 @@ import Link from 'next/link';
 
 export default function DarioAmodei() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="min-h-screen bg-slate-900 text-slate-100 py-12">
+      <div className="max-w-3xl mx-auto px-4">
       <header className="mb-12">
-        <div className="text-blue-600 font-bold uppercase tracking-wider text-sm mb-2">De Technocraat</div>
-        <h1 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-4">
+        <div className="text-blue-400 font-bold uppercase tracking-wider text-sm mb-2">De Technocraat</div>
+        <h1 className="text-4xl md:text-5xl font-black text-white leading-tight mb-4">
           Was het verzet van Dario Amodei het “Ik ben Spartacus!”-moment van Silicon Valley?
         </h1>
         <div className="flex items-center text-gray-500 text-sm">
@@ -19,7 +20,7 @@ export default function DarioAmodei() {
 
       <img src='/images/dario-amodei/main.png' alt='Dario Amodei illustratie' className='w-full h-auto rounded-lg my-8' />
 
-      <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed space-y-6">
+      <div className="prose prose-invert prose-lg max-w-none leading-relaxed space-y-6">
         <p className="font-bold text-xl leading-snug">
           Het verzet van Dario Amodei tegen minister van “Oorlog” Pete Hegseth, en de rechtszaak
           waar dat nu op uitdraait, lijkt steeds meer op een keerpunt.
@@ -34,6 +35,10 @@ export default function DarioAmodei() {
 
         <img src='/images/dario-amodei/spartacus.png' alt='Billboard protest' className='w-full h-auto rounded-lg my-8 shadow-md' />
 
+        <aside className="my-10 border-l-4 border-blue-500 pl-6 py-4 italic text-2xl text-blue-300 font-serif">
+          "Het draait allemaal om de vraag of een bedrijf het recht heeft om te weigeren zijn technologie te laten gebruiken voor doeleinden die indruisen tegen de eigen kernwaarden."
+        </aside>
+
         <p>
           De kern van het conflict is de weigering van Anthropic om hun krachtigste AI-model, Claude 4,
           beschikbaar te stellen voor de selectie van doelwitten bij drone-aanvallen. Amodei beroept
@@ -43,9 +48,14 @@ export default function DarioAmodei() {
 
         <p>
           De strafmaatregel die minister van “Oorlog” Pete Hegseth Anthropic oplegt creëert
-          <span className="bg-yellow-100 px-1 font-medium">“een cultuur van dwang, medeplichtigheid en stilte”</span>.
+          <span className="bg-slate-700 px-1 font-medium text-yellow-400">“een cultuur van dwang, medeplichtigheid en stilte”</span>.
           Microsoft gaat zelfs nog verder en spreekt voorzichtige steun uit voor de ethische bezwaren.
         </p>
+
+        <figure className="my-10">
+          <img src="/images/dario-amodei/pete-hegseth.png" alt="Pete Hegseth" className="w-full h-auto rounded-lg shadow-xl grayscale hover:grayscale-0 transition-all duration-500" />
+          <figcaption className="text-sm text-slate-400 mt-2 text-center">Pete Hegseth, de nieuwe Amerikaanse minister van Oorlog.</figcaption>
+        </figure>
 
         <p>
           Het draait allemaal om de vraag of een bedrijf het recht heeft om te weigeren zijn technologie
@@ -66,22 +76,40 @@ export default function DarioAmodei() {
           toenemende AI-bewapening.
         </p>
 
-        <div className="mt-12 pt-8 border-t border-gray-200">
+        <aside className="my-10 border-r-4 border-blue-500 pr-6 py-4 italic text-2xl text-blue-300 font-serif text-right">
+          "Amodei stelt dat Anthropic niet zomaar een leverancier is, maar een bewaker van veilige AI."
+        </aside>
+
+        <div className="mt-12 pt-8 border-t border-slate-700">
           <h3 className="text-xl font-bold mb-4">Lees ook:</h3>
-          <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col md:flex-row shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg overflow-hidden flex flex-col md:flex-row shadow-sm hover:shadow-md transition-shadow">
             <img src="/images/dario-amodei/read-further.png" alt="Gerelateerd artikel" className="w-full md:w-48 h-32 object-cover" />
             <div className="p-4">
-              <h4 className="font-bold text-blue-600 hover:underline cursor-pointer">De grote ChatGPT-boycot: waarom tienduizenden gebruikers opzeggen</h4>
-              <p className="text-sm text-gray-600 mt-2 line-clamp-2">De onrust in Silicon Valley verspreidt zich naar de gewone gebruiker.</p>
+              <h4 className="font-bold text-blue-400 hover:underline cursor-pointer">De grote ChatGPT-boycot: waarom tienduizenden gebruikers opzeggen</h4>
+              <p className="text-sm text-slate-400 mt-2 line-clamp-2">De onrust in Silicon Valley verspreidt zich naar de gewone gebruiker.</p>
             </div>
           </div>
         </div>
+
+        <section className="mt-16 p-8 bg-slate-800 rounded-xl border border-slate-700 shadow-2xl">
+          <h2 className="text-2xl font-bold mb-4 text-white">Analyse</h2>
+          <div className="space-y-4 text-slate-300 text-sm md:text-base">
+            <p><strong>Context:</strong> Een politiek geladen verslag over de machtsstrijd in Silicon Valley. Het draait om ethiek, de overheid (het Pentagon) en de zeldzame positie van AI-experts die hun rug recht houden tegenover politieke druk.</p>
+            <p><strong>Gebruiker:</strong> Lezers met een sterke interesse in ethiek, machtsstructuren en de achtergrond van grote techbedrijven (zoals Anthropic en Google).</p>
+            <p><strong>Medium:</strong> Een 'Long-read' of 'Dossier' format. De pagina moet aanvoelt als een officieel document of een diepgaande analyse van achter de schermen.</p>
+            <h3 className="font-bold mt-6 text-white">Ontwerpkeuzes:</h3>
+            <p><strong>UI:</strong> Gebruik van Dark Mode (bg-slate-900) met contrastrijke tekst. Dit geeft een sfeer van ernst, vertrouwelijkheid en autoriteit. De blauwgrijze tinten verwijzen naar de 'corporate' wereld van tech-reuzen.</p>
+            <p><strong>UX:</strong> Toepassing van Pull-quotes (grote citaten tussen de tekst) die fungeren als visuele ankerpunten. Dit helpt bij het verteren van de complexe politieke materie.</p>
+            <p><strong>Reflectie:</strong> De donkere, zware UI-stijl zorgt ervoor dat de lezer de ernst van het onderwerp direct bij binnenkomst begrijpt. Het vertaalt het 'Spartacus-moment' naar een visueel krachtig statement op het scherm.</p>
+          </div>
+        </section>
       </div>
 
       <div className="mt-12 text-center">
-        <Link href="/" className="text-blue-600 font-bold hover:underline">
+        <Link href="/" className="text-blue-400 font-bold hover:underline">
           &larr; Terug naar overzicht
         </Link>
+      </div>
       </div>
     </article>
   );
